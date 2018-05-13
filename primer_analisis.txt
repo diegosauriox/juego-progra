@@ -1,0 +1,4 @@
+Analisis:
+1) Las clases Luchador e InventarioLuchadores como tambien las clases ObjetoEquipable e InventarioObjeto poseen una relacion de asociacion ya que las dos necesitan conocer la existencia de la otra, podemos observar que la multiplicidad entre ellas es: Luchador(1:25) e InventarioLuchadores(1), ObjetoEquipable(0;10) e InventarioObjeto(0).
+
+2) La clase monstruo es dependiente de la clase ObjetoEquipable ya que esta primera crea una instancia de un solo uso de la clase objetoEquipable y luego "termina" de usar la instancia y la borra 

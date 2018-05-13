@@ -1,0 +1,9 @@
+1)Batalla->dependencia-> Dados: ya que el 1ro crea un objeto de la clase Dados para un solo uso
+2)Monstruo-agregacion-> ObjetoEquipable: A Monstruo se le agrega una lista de objetos de la clase 
+ObjetoEquipable
+3)Monstruo-> asociacion-> Batalla: trabajan en conjunto con sus metodos
+4)Batalla-> asociacion-> InventarioLuchador: Batalla crea un nuevo inventarioLuchador para luchar 
+5)Luchador-agregacion->ObjetoEquipable: A la clase Luchador se le puede agregar un objeto de la clase ObjetoEquipable
+6)Luchador-> agregacion-> inventarioLuchador: crear una lista de luchadores de la clase Luchador
+7)ObjetoEquipable->agregacion-> inventarioObjeto: crear una lista de objetos de la clase ObjetoEquipable
+
