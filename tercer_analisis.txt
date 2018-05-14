@@ -1,0 +1,6 @@
+Herencia
+clase Personaje---> clase Luchador y clase Monstruo
+porque estas comparten atributos comunes: atk, hp, spd, def y faccion
+
+clase Inventario-----> clase InventarioLuchador y clase InventarioObjeto
+estas clases comparten metodos que realizan la misma funcion pero los diferencia las condiciones para que estos de realizen

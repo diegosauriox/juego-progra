@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class InventarioLuchadores {
+public class InventarioLuchadores extends Inventario {
 	private static Scanner sca = new Scanner(System.in);
 	
-
-	public static void agregarLuchadores(ArrayList<Luchador> luchadores) {
+    @Override
+	public static void agregar(ArrayList<Luchador> luchadores) {
 		if (luchadores.size() == 0) {
 			luchadores.add(new Luchador());
 		}
@@ -15,7 +15,7 @@ public class InventarioLuchadores {
 			System.out.println("Usted no puede crear mas luchadres");
 		}
 	}
-
+    
 	public static void mostrarCantidad(ArrayList<Luchador> luchadores) {
 		if (luchadores.size() == 0) {
 			luchadores.add(new Luchador());
@@ -67,7 +67,7 @@ public class InventarioLuchadores {
 			System.out.println("no existen luchadores de la faccion buscada");
 		}
 	}
-
+ 
 	public static void rangoPedido(ArrayList<Luchador> luchadores) {
 		int cont=0;
 		System.out.println("elija el rango que desea filtrar");

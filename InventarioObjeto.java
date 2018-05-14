@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class InventarioObjeto {
+public class InventarioObjeto extends Inventario{
 	private static Scanner sca = new Scanner(System.in);
-
+    
 	public static void agregarObjeto(ArrayList<ObjetoEquipable> objetos) {
 		if (objetos.size() < 10) {
 			objetos.add(new ObjetoEquipable());
