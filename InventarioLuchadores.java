@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class InventarioLuchadores extends Inventario {
 	private static Scanner sca = new Scanner(System.in);
 	
-    @Override
-	public static void agregar(ArrayList<Luchador> luchadores) {
+	public static void agregarLuchadores(ArrayList<Luchador> luchadores) {
 		if (luchadores.size() == 0) {
 			luchadores.add(new Luchador());
 		}
